@@ -1,0 +1,11 @@
+[global]
+direct=1
+rw=write
+bs=128k
+ioengine=libaio
+runtime=100
+time_based
+group_reporting
+size=5G
+[job1]
+filename=max_write
